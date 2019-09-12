@@ -1,0 +1,154 @@
+/* AMOSTRA FAIXA */
+#experimento{
+	width: 100%;
+	height: auto;
+	background-color: #3c8dbc;
+	padding: 10px;
+}
+.linha{
+	background-color: #222d32;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+	display: inline-flex;
+	padding: 10px;
+	color: #fff;
+}
+.linha p{
+	color: #fff;
+	padding-top: 60px;
+	font-size: 15pt;
+	display: contents;
+}
+.linha span{
+	display: contents;
+}
+.tratamento{
+	/*background-color: #fff;*/
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0px auto;
+	padding: 25px 15px 20px 25px;
+	font-size: 16pt;
+	color: #fff;
+	border: 1px solid #fff;
+
+}
+.tratamento:hover{
+	color: #3c8dbc;
+}
+.containerLegenda{
+	background-color: #fff;
+	width: 100%;
+	margin-top: 30px;
+	padding: 20px;
+	border: 2px solid #222d32;
+}
+.containerLegenda #boxLegenda{
+	padding: 10px;
+	width: 100%;
+	color: #000;
+	height: inherit;
+}
+.containerLegenda #boxLegenda p{
+	padding-top: 5px;
+	padding-left: 40px;
+}
+.containerLegenda #boxLegenda span{
+	font-weight: bold;
+}
+.boxLegenda{
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+}
+.boxLegenda .inlineFlex{
+	display: inline-flex;
+}
+.corT1{
+	background-color: #eb2f06;
+}
+.corT2{
+	background-color: #f1c40f;
+}
+.corT3{
+	background-color: #2ecc71;
+}
+.corT4{
+	background-color: #9b59b6;
+}
+.corT5{
+	background-color: #1abc9c;
+}
+.corT6{
+	background-color: #c0392b;
+}
+.corT7{
+	background-color: #fd79a8;
+}
+.corT8{
+	background-color: #7f8fa6;
+}
+/* FAIXA */
+.modal-header .close {
+    margin-top: -20px;
+}
+.modal-title{
+	font-size: 22pt;
+}
+/* BLOCO */
+/* CASUALIZADO */
+.experimento_casualizado .linha{
+	background-color: #000;
+}
+
+/* DRAG AND DROP BLOCO */
+.draggable-droppable {
+  cursor: pointer;
+  border: 2px solid #fff !important;
+  cursor: move;
+}
+.drag{
+	background-color: red;
+	position: relative;
+}
+.draggable-droppable span {
+  verticle-align: middle;
+  display: inline-block;
+  line-height: normal;
+}
+.draggable-droppable > [class^="box-"] {
+  pointer-events: none;
+}
+.draggable-droppable:hover {
+  box-shadow: 0 0 3px #cfd1d1;
+}
+[class^="box-"] {
+  height: inherit;
+  text-align: center;
+  border-radius: 8px;
+  text-shadow: 0px 1px 1px #eee;
+  box-shadow: 0 1px 2px #EAEBE8;
+  height: 92px;
+  width: 92px;
+}
+.box-1 {
+  background: linear-gradient(to top, #F7C95E, #F7D483);
+}
+.box-2 {
+  background: linear-gradient(to top, #F2A5EC, #D1A5F2);
+}
+.box-3 {
+  background: linear-gradient(to top, #C1F2A5, #CAF7B0);
+}
+.box-4 {
+  background: linear-gradient(to top, #84F8FA, #BFFEFF);
+}
+.box-5 {
+  background: linear-gradient(to top, #FFB5B5, #FFC7C7);
+}
+.box-6 {
+  background: linear-gradient(to top, #FAFF94, #FCFFBA);
+}
